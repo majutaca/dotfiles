@@ -32,4 +32,19 @@ set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set number
-set hidden
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops ans EOLs
+set listchars=tab:▸\ ,eol:¬
+
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
+" default tab spaces: 2
+set ts=2 sts=2 sw=2 expandtab
+
+"Pathogen plugin
+execute pathogen#infect()
