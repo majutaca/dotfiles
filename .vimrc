@@ -32,6 +32,7 @@ set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set number
+set nrformats=    " Make vim treat all numerals as decimals, regardless of whether they are padded with zeros
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
