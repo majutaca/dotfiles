@@ -47,5 +47,8 @@ highlight SpecialKey guifg=#4a4a59
 " default tab spaces: 2
 set ts=2 sts=2 sw=2 expandtab
 
+" Auto indent based on the file type
+filetype plugin indent on
+
 "Pathogen plugin
 execute pathogen#infect()
