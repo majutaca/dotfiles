@@ -1,3 +1,4 @@
+'dart-lang/dart-vim-plugin'
 "" Chris Majuta's .vimrc
 "*****************************************************************************
 
@@ -28,6 +29,9 @@ call minpac#add('jiangmiao/auto-pairs')
 
 "" VueJS
 call minpac#add('posva/vim-vue')
+
+"" VimDart
+call minpac#add('dart-lang/dart-vim-plugin')
 
 "" Themes
 call minpac#add('dracula/vim')
